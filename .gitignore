@@ -1,3 +1,8 @@
+# User-added files
+C7S1_AudioIdentification.ipynb
+Wang03-shazam.pdf
+mtg-jamendo-dataset/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
