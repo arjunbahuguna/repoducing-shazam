@@ -6,9 +6,9 @@ This is a Python implementation of the audio fingerprinting algorithm described 
 
 The system consists of 3 main components:
 
-1. **Constellation Map Generation**: Extract time-frequency peaks from spectrograms
-2. **Combinatorial Hashing**: Create fingerprints by pairing nearby peaks
-3. **Matching & Scoring**: Find matches by detecting time-aligned hash clusters
+1. Constellation Map Generation: Extract time-frequency peaks from spectrograms
+2. Combinatorial Hashing: Create fingerprints by pairing nearby peaks
+3. Matching & Scoring: Find matches by detecting time-aligned hash clusters
 
 ## Files
 
@@ -19,13 +19,13 @@ The system consists of 3 main components:
 
 ## Quick Start
 
-### 1. Install Dependencies
+#### 1. Install Dependencies
 
 ```bash
 pip install numpy librosa scipy matplotlib soundfile tqdm
 ```
 
-### 2. Build Database and Run Tests
+#### 2. Build Database and Run Tests
 
 ```python
 python src/test.py
@@ -37,7 +37,7 @@ This will:
 - Create 10 degraded test queries (10 seconds, -6 dB SNR)
 - Test matching and report accuracy
 
-### 3. Analyze Results
+#### 3. Analyze Results
 
 ```python
 python src/analyse.py
