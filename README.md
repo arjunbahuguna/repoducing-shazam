@@ -12,7 +12,7 @@ The system consists of 3 main components:
 
 ## Files
 
-- `compute.py` - Spectrogram and peak detection functions (updated from your original plot.py)
+- `compute.py` - Spectrogram and peak detection functions
 - `shazam.py` - Main implementation of the Shazam algorithm
 - `test.py` - Script to build database and test with synthetic queries
 - `utils.py` - Utilities for analyzing results and creating paper figures
@@ -32,7 +32,7 @@ python src/test.py
 ```
 
 This will:
-- Build a fingerprint database from folders `00` and `01` in your MTG-Jamendo dataset
+- Build a fingerprint database from folders `00` and `01` in MTG-Jamendo dataset
 - Save the database to `shazam_database.pkl`
 - Create 10 degraded test queries (10 seconds, -6 dB SNR)
 - Test matching and report accuracy
