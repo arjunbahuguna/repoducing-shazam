@@ -28,7 +28,7 @@ pip install numpy librosa scipy matplotlib soundfile tqdm
 ### 2. Build Database and Run Tests
 
 ```python
-python test.py
+python src/test.py
 ```
 
 This will:
@@ -40,7 +40,7 @@ This will:
 ### 3. Analyze Results
 
 ```python
-python analyse.py
+python src/analyse.py
 ```
 
 This will print database statistics. You can also uncomment the example code to:
