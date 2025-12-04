@@ -2,6 +2,11 @@
 C7S1_AudioIdentification.ipynb
 Wang03-shazam.pdf
 mtg-jamendo-dataset/*
+shazam_database.pkl
+stdout.log
+venv/**
+.venv/**
+.ipynb_checkpoints/**
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
