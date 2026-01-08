@@ -216,7 +216,7 @@ def run_experiment(dataset_path,
 if __name__ == '__main__':
     # Configuration
     # UPDATED: Use your corrected path
-    DATASET_PATH = '/media/arjbah/Extreme SSD/Datasets/workbench/mtg_jamendo'
+    DATASET_PATH = './mtg-jamendo-dataset'
     
     # You can easily change which folders to include
     FOLDERS_TO_PROCESS = ['00', '01']  # Start with just these two
