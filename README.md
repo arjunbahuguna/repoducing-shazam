@@ -21,13 +21,27 @@ The system consists of 3 main components:
 
 #### 1. Install Dependencies
 
+Using [uv](https://docs.astral.sh/uv/) (recommended):
+
+```bash
+uv sync
+```
+
+Or with pip:
+
 ```bash
 pip install numpy librosa scipy matplotlib soundfile tqdm
 ```
 
 #### 2. Build Database and Run Tests
 
-```python
+```bash
+uv run python src/test.py
+```
+
+Or:
+
+```bash
 python src/test.py
 ```
 
@@ -39,9 +53,18 @@ This will:
 
 #### 3. Analyze Results
 
-```python
+```bash
+uv run python src/analyse.py
+```
+
+Or:
+
+```bash
 python src/analyse.py
 ```
+
+If you want to plot figures, uncomment the example plotting code blocks in `analyse.py`.
+
 
 This will print database statistics. You can also uncomment the example code to:
 - Visualize scatterplots (reproducing Figure 2A/3A from paper)
