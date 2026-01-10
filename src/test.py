@@ -219,8 +219,8 @@ if __name__ == '__main__':
     DATASET_PATH = './mtg-jamendo-dataset'
     
     # You can easily change which folders to include
-    FOLDERS_TO_PROCESS = ['00', '01']  # Start with just these two
-    # To process all folders later, use:
+    FOLDERS_TO_PROCESS = ['00'] 
+    # To process all folders, use:
     # FOLDERS_TO_PROCESS = [f'{i:02d}' for i in range(100)]
     
     # Test parameters (from paper: 5, 10, 15 second samples at various SNRs)
